@@ -1,0 +1,162 @@
+header{
+
+    position: fixed;
+
+    background-color: #d82c2c;
+
+    width:100%;
+
+    top: 0px;
+
+    z-index: 5;
+
+    height: 50px;
+
+}
+
+
+
+nav li{
+
+    color: whitesmoke;
+
+    display: inline-block;
+
+    margin: 0px 50px;
+
+}
+
+a{
+
+    text-decoration: none;
+
+    color:white;
+
+    font-family: 'Black Han Sans', sans-serif;
+
+
+}
+
+.home{
+    text-align: center;
+
+    height: 650px;
+
+    background-image: url(./tvxq1.jpg);
+
+    background-repeat: no-repeat;
+
+    background-position: center;
+
+    background-size: cover;
+
+    position:relative;
+
+    top:50px;
+}
+
+
+
+.logo{
+
+    position: absolute;
+
+    height: 55%;
+
+    width: 100%;
+
+    background-color: rgba(255, 255, 255, 0.3); 
+    top:250px;
+
+}
+
+.setmargin{
+
+    margin-top:25px;
+    margin-bottom:25px;
+    margin-left:30px;
+}
+
+.about_yh{
+
+    
+    height : 600px;
+
+    position: relative;
+
+    display:flex;
+
+    align-items: flex-start;
+
+    padding: 100px 50px;
+    
+    background-image : url(yoonho.png);
+    background-repeat:no-repeat;
+}
+.information_yh{
+position: absolute;
+width: 60%;
+height:70%;
+margin-left:0px;
+background-color : rgba(236, 26, 61, 0.212)
+
+
+}
+
+.about_yh p{
+    font-family: 'Nanum Brush Script', cursive;
+    color :#B9062F;
+    font-size:25px;
+
+
+}
+
+.about_cm{
+
+    
+    height : 600px;
+
+    position: relative;
+
+    display:flex;
+
+    align-items: flex-start;
+
+    padding: 100px 50px;
+    
+    background-image : url(changmin.png);
+    background-repeat:no-repeat;
+}
+.information_cm{
+position: absolute;
+width: 60%;
+height:70%;
+margin-left:400px;
+background-color : rgba(145, 145, 145, 0.212)
+
+
+}
+
+.about_cm p{
+    font-family: 'Nanum Brush Script', cursive;
+    color :#FFFFFF;
+    font-size:25px;
+
+
+}
+
+.discography{
+
+    position: relative;
+    height:600;
+    background-color: rgba(236, 26, 61, 0.212);
+}
+
+#maintext{
+
+    font-family: 'Nanum Brush Script', cursive;
+    color :#B9062F;
+    font-weight: 150;
+    font-size : 60px;
+    display:inline;
+}
