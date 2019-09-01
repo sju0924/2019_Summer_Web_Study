@@ -1,16 +1,14 @@
 const list=[1,2,3,4,5,6,7,8,9,10];
 
+
 const callbackExample=(items, callback)=>{
-setTimeout(fun=() => {
-    let sum = 0;
-    list.reduce((a)=>a+sum);
-    callback(sum);
+setTimeout(() => {
+    var result = list.reduce((a,b)=>a+b);
+    callback(result)
 }, 0);
 }
 
-callbackExample(list,function(result){
-    console.log(result);
-});
+callbackExample(list,(result)=>console.log(result));
 
 console.log('first');
 
